@@ -48,4 +48,8 @@
 }
 
 
++(AppDelegate *)appDeleagte{
+  return [[UIApplication sharedApplication] delegate];
+}
+
 @end

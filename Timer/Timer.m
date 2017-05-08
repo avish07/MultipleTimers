@@ -23,6 +23,7 @@
            if (![timerArr[indexPath.row] isKindOfClass:[NSDate class]]) {
                 [timerLbl  setText:@"Timer Over"];
                 [circularTimerLbl setText:@"00:00"];
+                slider.value = 0;
                 [slider setHidden:false];
                 return ;
             }
